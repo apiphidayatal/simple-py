@@ -1,3 +1,2 @@
-a = 6
-for j in range(a):
-  print((a-1-j)* ' ' + (2*j+1) * '*')
+for i in range(6,0,-1):
+    print(' '*(i-1) + '*'*(7-i)+'*'*(6-i))
